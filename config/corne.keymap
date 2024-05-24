@@ -58,7 +58,7 @@
 
         layer_3 {
             bindings = <
-&trans            &trans  &trans  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp EQUAL        &kp AT_SIGN
+&trans            &trans  &trans  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp COLON      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp EQUAL        &kp AT_SIGN
 &lt 1 LEFT_SHIFT  &trans  &trans  &kp C_VOL_DN     &kp C_AC_SEARCH   &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN   &kp GREATER_THAN  &kp EXCLAMATION  &kp TILDE
 &lt 2 ESC         &trans  &trans  &trans           &trans            &trans         &kp SLASH             &kp BACKSLASH          &kp HASH        &kp DOLLAR        &kp PERCENT      &kp AMPERSAND
                                   &trans           &trans            &lt 3 SPACE    &trans                &trans                 &trans
