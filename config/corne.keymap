@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB           &trans  &trans  &trans    &trans            &trans         &trans    &trans          &kp UP_ARROW  &trans     &trans  &kp BSPC
-&lt 1 LEFT_SHIFT  &trans  &trans  &trans    &trans            &trans         &kp LEFT  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&lt 2 ESC         &trans  &trans  &trans    &trans            &trans         &trans    &trans          &trans        &trans     &trans  &trans
-                                  &kp LGUI  &kp LEFT_CONTROL  &lt 3 SPACE    &kp RET   &trans          &kp RALT
+&kp TAB           &trans  &trans  &trans    &trans            &trans         &trans   &trans          &kp UP_ARROW  &trans     &trans  &kp BSPC
+&lt 1 LEFT_SHIFT  &trans  &trans  &trans    &trans            &trans         &trans   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
+&lt 2 ESC         &trans  &trans  &trans    &trans            &trans         &trans   &trans          &trans        &trans     &trans  &trans
+                                  &kp LGUI  &kp LEFT_CONTROL  &lt 3 SPACE    &kp RET  &trans          &kp RALT
             >;
         };
 
@@ -67,10 +67,10 @@
 
         layer_4 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8          &kp F9      &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &kp B     &trans  &kt LEFT_SHIFT  &kt DELETE  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans      &trans   &trans   &trans
-                        &trans  &trans  &trans    &trans  &trans          &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8           &kp F9      &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kt RIGHT_SHIFT  &kt DELETE  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans      &trans   &trans   &trans
+                        &trans  &trans  &trans    &trans  &trans           &trans
             >;
         };
     };
